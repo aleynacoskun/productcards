@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Mediamarkt</title>
+   
+  </head>
+      <body class="bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="Kampanyalar.html">Kampanyalar</a>
+              <a class="navbar-brand" href="Hizmetler.html">Hizmetler</a>
+              <a class="navbar-brand" href="Mediamarktclub.html">Mediamarkt CLUB</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tüm Kategoriler
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">Telefon</a></li>
+                      <li><a class="dropdown-item" href="#">Bilgisayar</a></li>
+                      <li><a class="dropdown-item" href="#">Aksesuar</a></li>
+                      <li><a class="dropdown-item" href="#">Spor&Oyun&<br>Outdoor</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav> 
+    
+        <main>
+          <div class="container my-6">
+            <h2 class="my-3">Sipariş Talep Formu</h2>
+            <div class="row g-2">
+              
+              <div class="col-md-6">
+                <div class="card bg-danger">
+                  <div class="card-body">
+                    <div class="alert alert-light">
+                      Lütfen formu doldurunuz.
+                    </div>
+                    <form class="row g-3 text-white">
+                      <div class="col-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" name="email" id="email" class="form-control">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="name" class="form-label">İsim</label>
+                        <input type="text" name="name" id="name" class="form-control">
+                      </div>
+                      <div class="col-md-12">
+                        <label for="phone" class="form-label">Telefon numarası</label>
+                        <input type="text" name="phone" id="phone" class="form-control">
+                      </div>
+                      <div class="col-md-12">
+                        <label for="subject" class="form-label">Ürünün kodu</label>
+                        <input type="text" name="subject" id="subject" class="form-control">
+                      </div>
+                      <div class="col-md-12">
+                        <label for="message" class="form-label">Notunuz</label>
+                        <textarea name="message" id="message" class="form-control"></textarea>
+                      </div>
+                      <div class="col-12">
+                        <button class="btn btn-outline-primary" style="width: 100%">Talep Oluştur</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48192.25415825653!2d29.063052999999996!3d40.981133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac790b17ba89d%3A0xd2d24ea0437a7ee2!2zS2FkxLFrw7Z5L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1689852687748!5m2!1str!2str" 
+                width="100%" style="border:0;" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+    
+              </div>
+            </div>
+          </div>
+        </main>
+    
+       
+    
+        <footer class="py-5 bg-dark text-white mt-auto">
+            <div class="container text-center">
+                <span>Tüm hakları saklıdır. @2023 </span>
+            </div>
+        </footer>
+       
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+        crossorigin="anonymous"></script>
+  </body>
+</html>
